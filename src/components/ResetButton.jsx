@@ -12,7 +12,7 @@ const StyledButton = styled.button`
 
 const ResetButton = ({ onReset }) => {
     return (
-        <StyledButton onClick={onReset}>Reset</StyledButton>
+        <StyledButton onClick={ onReset }>Reset</StyledButton>
     )
 };
 

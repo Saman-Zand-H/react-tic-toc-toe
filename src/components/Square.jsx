@@ -13,7 +13,7 @@ const StyledTd = styled.td`
 
 const Square = ({ value, id, onSquareClick }) => {
     return (
-        <StyledTd id={id} onClick={onSquareClick}>
+        <StyledTd id={ id } onClick={ onSquareClick }>
             <span>{ value }</span>
         </StyledTd>
     )
